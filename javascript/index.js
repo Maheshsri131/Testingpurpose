@@ -1,7 +1,7 @@
 function validateEmail(inputText) {
   var mailFormat =  /\S+@\S+\.\S+/;
   if (inputText.value.match(mailFormat)) {
-    alert(" Valid Address!")
+    alert("  Thankyou for Applying")
     window.open("../Html/thankyou.html")
     return true; 
   } 
